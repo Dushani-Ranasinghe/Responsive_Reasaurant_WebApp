@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="../styles/styles.css">
     <!-- icon to browser tab -->
     <link rel="icon" href="../source/utensils-solid.svg">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+   
     
 </head>
 <body>
@@ -30,8 +32,67 @@
          <a href="#order"> Order </a>
         </nav>
     </header>
+    <!-- Home section -->
+    <section class="home" id="home">
+        <div class="swiper mySwiper home-slider">
+        <div class="swiper-wrapper wrapper">
+            <!-- Slider 1 -->
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <div class="text-box">
+                    <span>Our Popular Dishes</span>
+                    <h3>Pizza</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Veniam necessitatibus corrupti quidem amet quibusdam! 
+                       
+                    </p>
+                    <a href="#" class="btn">Order</a>
+                </div>
+                </div>
+                <div class="img">
+                    <img src="../source/pizza.jpg" alt="pizza" width="100%" style=" transform: scaleX(-1)">
+                </div>
+            </div>
+            <!-- slide 2 -->
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <div class="text-box">
+                    <span>Our Popular Dishes</span>
+                    <h3>Pasta</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Veniam necessitatibus corrupti quidem amet quibusdam! 
+                    </p>
+                    <a href="#" class="btn">Order</a>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="../source/pasta.jpg" alt="pasta"width="100%">
+                </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <div class="text-box">
+                    <span>Our Popular Dishes</span>
+                    <h3>Pink Chia Pudding</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Veniam necessitatibus corrupti quidem amet quibusdam! 
+                    </p>
+                    <a href="#" class="btn">Order</a>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="../source/dessert1.jpg" alt="dessert" width="100%" style="position: bottom;">
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    </section>
    
     <!-- Custome javascript file -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="/script.js"></script>
+    
 </body>
 </html>
