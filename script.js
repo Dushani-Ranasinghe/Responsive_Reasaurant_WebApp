@@ -1,3 +1,4 @@
+//menu bar
 let menu = document.querySelector('#menu-bar');
 let navbar = document.querySelector('.navbar');
 
@@ -11,6 +12,7 @@ window.onscroll = () =>{
     navbar.classList.remove('active');
 }
 
+//slider
 var swiper = new Swiper(".home-slider", {
     spaceBetween: 30,
     centeredSlides: true,

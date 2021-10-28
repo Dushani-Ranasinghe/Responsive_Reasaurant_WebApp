@@ -19,6 +19,7 @@
     transition: all .2s linear;
 }
 
+
 *::selection{
     background: var(--red);
     color: rgb(255, 255, 255);
@@ -37,6 +38,7 @@ body{
 section:nth-child(even){
     background: #eee;
 }
+/* style button */
 .btn{
     margin-top: 1rem;
     display: inline-block;
@@ -53,6 +55,7 @@ section:nth-child(even){
     letter-spacing: .1rem;
     color: var(--black);
 }
+/* Header */
 header{
     position: fixed;
     top: 0;
@@ -87,7 +90,7 @@ header .navbar a{
 header .navbar a:hover{
    color: var(--red);
 }
-
+/* Menu bar */
 #menu-bar{
     font-size: 3rem;
     cursor: pointer;
@@ -97,7 +100,7 @@ header .navbar a:hover{
     padding: .5rem 1.5rem;
     display: none;
 }
-
+/* Home - slider */
 .home .home-slider .slide{
     display: flex;
     align-items: center;
@@ -185,18 +188,18 @@ header .navbar a:hover{
    }
    header .navbar.active{
        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-      
+
    }
    header .navbar a{
        margin: 1.5rem;
        padding: 1.5rem;
-       display: block; 
+       display: block;
        border: .2rem solid rgba(0, 0, 0,.1);
        border-left: .5rem solid var(--red);
        background: #fff;
    }
    .home .home-slider .slide{
-    height: 500px;   
+    height: 500px;
    }
    .home .home-slider .slide .content .image{
     padding-top: 0;
@@ -215,11 +218,11 @@ header .navbar a:hover{
         font-size: 3.5rem;
     }
     .home .home-slider .slide .content p{
-        font-size: 2rem; 
+        font-size: 2rem;
         padding-bottom: 0;
         padding-top: 0;
         color: #222222;
-        
+
     }
    .text-box{
        width: 100%;
@@ -240,8 +243,8 @@ header .navbar a:hover{
         font-size: 2rem;
     }
     .home .home-slider .slide .content p{
-        font-size: 1rem; 
-        padding: 1.5rem 0;  
+        font-size: 1rem;
+        padding: 1.5rem 0;
     }
     .text-box{
         background-color: rgb(255, 255, 255);
