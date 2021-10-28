@@ -10,3 +10,18 @@ window.onscroll = () =>{
     menu.classList.remove('fa-times');
     navbar.classList.remove('active');
 }
+
+var swiper = new Swiper(".home-slider", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 7500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    loop:true,
+  });
+  
